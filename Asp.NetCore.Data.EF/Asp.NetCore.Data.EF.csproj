@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+    <Folder Include="Extension\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Asp.NetCore.Data\Asp.NetCore.Data.csproj" />
+    <ProjectReference Include="..\Asp.NetCore.Infrastructure\Asp.NetCore.Infrastructure.csproj" />
+    <ProjectReference Include="..\Asp.NetCore.Utilities\Asp.NetCore.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>
